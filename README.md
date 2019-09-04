@@ -9,8 +9,8 @@ https://github.com/IbenKAndersen/Movie
 # Monday 02/09/19
 CI with Maven and Travis
 
-- Status: ...
-- Location: The document with answers is in the folder 01-monday-excercises. 
+- Status: Done with setup for startcode project. Done with setup for Movie project. 
+- Location: Links to repositories are below:
     - Ex1) Link to NetBeans project (startcode) https://github.com/IbenKAndersen/rest-jpa-devops-startcode
     - Ex2) Link to NetBeans project (Movie) https://github.com/IbenKAndersen/Movie
 - Learning goals: using Maven as a tool to build and test Java Software, using continous integration and its principles, descriping and demonstrating a typical CI workflow.
@@ -25,6 +25,6 @@ Testing a REST API
 # Wednesday 04/09/19
 JavaScript Introduction
 
-- Status: ...
-- Location: The document with answers is in the folder 03-wednesday-excercises. 
+- Status: Done with all exercises in JavaScript Array. Done with ... 
+- Location: The documents with answers is in the folder 03-wednesday-excercises. 
 - Learning goals: descriping the diffrences between Java and JavaScript, describing the functionality and data types and structures of JavaScript, using the most important methods of JavaScript Array. 
