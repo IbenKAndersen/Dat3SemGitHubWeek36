@@ -10,7 +10,7 @@ https://github.com/IbenKAndersen/Movie
 CI with Maven and Travis
 
 - Status: Done with setup for startcode project. Done with setup for Movie project. 
-- Location: The document with answers is in the folder 01-monday-excercises. 
+- Location: Links to repositories are below:
     - Ex1) Link to NetBeans project (startcode) https://github.com/IbenKAndersen/rest-jpa-devops-startcode
     - Ex2) Link to NetBeans project (Movie) https://github.com/IbenKAndersen/Movie
 - Learning goals: using Maven as a tool to build and test Java Software, using continous integration and its principles, descriping and demonstrating a typical CI workflow.
