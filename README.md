@@ -19,5 +19,12 @@ CI with Maven and Travis
 Testing a REST API
 
 - Status: ...
-- Location: The document with answers is in the folder 01-monday-excercises. Link to NetBeans project https://github.com/IbenKAndersen/Movie
+- Location: The document with answers is in the folder 02-tuesday-excercises. Link to NetBeans project https://github.com/IbenKAndersen/Movie
 - Learning goals: descriping and demonstrating automatic testing by using Maven. 
+
+# Wednesday 04/09/19
+JavaScript Introduction
+
+- Status: ...
+- Location: The document with answers is in the folder 03-wednesday-excercises. 
+- Learning goals: descriping the diffrences between Java and JavaScript, describing the functionality and data types and structures of JavaScript, using the most important methods of JavaScript Array. 
