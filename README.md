@@ -9,7 +9,7 @@ https://github.com/IbenKAndersen/Movie
 # Monday 02/09/19
 CI with Maven and Travis
 
-- Status: ...
+- Status: Done with setup for startcode project. Done with setup for Movie project. 
 - Location: The document with answers is in the folder 01-monday-excercises. 
     - Ex1) Link to NetBeans project (startcode) https://github.com/IbenKAndersen/rest-jpa-devops-startcode
     - Ex2) Link to NetBeans project (Movie) https://github.com/IbenKAndersen/Movie
