@@ -26,5 +26,5 @@ Testing a REST API
 JavaScript Introduction
 
 - Status: Done with all exercises in JavaScript Array. Done with exercise .... in JavaScript Day 1. 
-- Location: The documents with answers are in the folder 03-wednesday-excercises. 
+- Location: The .js-file and documents with answers are in the folder 03-wednesday-excercises. 
 - Learning goals: descriping the diffrences between Java and JavaScript, describing the functionality and data types and structures of JavaScript, using the most important methods of JavaScript Array. 
