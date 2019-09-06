@@ -33,7 +33,7 @@ JavaScript Introduction
 # Thursday 05/09/19
 JavaScript and the Document Object Model (DOM)
 
-- Status: Tried to make the fetch exercise. 
+- Status: Tried to make the fetch exercise. I do not fully understand the concept yet of Document Objects Model and its methods. I have spent so much time working on the exercises for this week that I ran out of time friday night. I will try to work throughout the weekend, but I know I will not be finished in time for peer review. I hope I will still get som credit for the efford that I have made in order to finish the exercises.
 - Location: The .html-document and .js-document is in the folder 04-thursday-exercises. 
 - Learning goals: demonstrating code examples with DOM-interaction e.g. choosing elements, styling, handling tags, attributes etc., demonstrating the use of fetch.  
 
@@ -41,5 +41,5 @@ JavaScript and the Document Object Model (DOM)
 Add a JavaScript-driven frontend to your REST-API
 
 - Status: Not done yet.
-- Location: ...
+- Location: Link to NetBeans project (same as Monday) https://github.com/IbenKAndersen/Movie
 - Learning goals: demonstrating the learning goals from throughout the week e.g. deploying via Travis, the use of fetch in JavaScript, rendering data from one, or more REST-endpoint. 
