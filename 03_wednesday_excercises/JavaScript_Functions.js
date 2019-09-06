@@ -77,19 +77,91 @@ var cars = [
   { id: 5, year: 2005, make: 'Volvo', model: 'V70', price: 44799 }
 ];
 
-//Ex 4 a Use the filter function to get arrays with only cars newer than 1999
+//Ex 4 Use the filter function to get arrays with only cars newer than 1999
 var cars99 = cars.filter(car => car.year > 1999);
 console.log(cars99);
 
-//Ex 4 a Use the filter function to get arrays with only Volvo
+//Ex 4 Use the filter function to get arrays with only Volvo
 var carVolvo = cars.filter(car => car.make == "Volvo");
 console.log(carVolvo);
 
-//Ex 4 a Use the filter function to get arrays with only cars with a price below 5000
+//Ex 4 Use the filter function to get arrays with only cars with a price below 5000
 var car5000 = cars.filter(car => car.price < 5000);
 console.log(car5000);
 
-//Ex 4 a 
+//Ex 4a Implement a function that will return a string with valid SQL statements
+var sql = cars.map(sql => "INSERT INTO cars (id,year,make,model,price) VALUES ("
++ sql.id + "," + sql.year + ",'" + sql.make + "','" + sql.model + "','" + sql.price +"');");
+console.log(sql);
+
+
+//Exercises for: Asynchronous Callbacks
+
+//Ex 1 In what order you would expect to see the outputs? A, D, F, E, B (the order was correct)
+var msgPrinter = function(msg,delay){
+  setTimeout(function(){
+    console.log(msg);
+  },delay);
+};
+console.log("aaaaaaaaaa");
+msgPrinter ("bbbbbbbbbb",2000);
+console.log("dddddddddd");
+msgPrinter ("eeeeeeeeee",1000);
+console.log("ffffffffff");
+
+
+//Exercises for: this and constructor functions 
+
+//Ex 1 Add this code and explain
+/*function Person(name){
+  this.name = name;
+  console.log("Name: "+ this.name);
+  setTimeout(function(){
+    console.log("Hi  "+this.name);  //The local variable name is only available inside the function
+  },2000);
+}
+//call it like this (do it, even if you know it’s silly ;-)
+Person("Kurt Wonnegut");  //This calls the function
+console.log("I'm global: "+ name);  //It says undefined because the local variable is called from outside*/
+
+//Ex 2 Create a Person instance, rerun and explain
+var p = new Person("Kurt Wonnegut");  //Create an instance using the constructor function
+console.log("I'm global: "+ name);  //The variable is now global and is available from outside a function
+
+//Ex 3 Change your code to fix the problems
+function Person(name){
+  this.name = name;
+  var self = this;
+  console.log("Name: "+ this.name);
+  setTimeout(function(){
+    console.log("Hi  "+self.name);
+  },bind(this),2000);
+}
+
+//Ex 4 Write and understand
+var greeter = function(){
+  console.log(this.message);
+};
+var comp1 = { message: "Hello World" };
+var comp2 = { message: "Hi" };
+
+var g1 = greeter.bind(comp1 );//We can store a reference, with a specific “this” to use
+var g2 = greeter.bind(comp2 );//And here another “this”
+setTimeout(g1,500);
+setTimeout(g2,1000);
+
+
+//Exercises for: JavaScript Objects
+
+//Ex 1 Create an object with four different properties
+function Person(name, birthday, hobby, email) {
+	this.name = name;
+	this.birthday = birthday;
+	this.hobby = hobby;
+	this.email = email;
+}	
+
+
 
 
 
