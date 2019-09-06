@@ -1,0 +1,30 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+<h2> Fetch the requested user</h2>
+
+<form action="script.js" target="_self">
+  <input type="text" name="input">
+  <input type="submit" value="Get User">
+  <input type="submit" value="Get All">
+</form>
+
+<script>
+fetch(https://jsonplaceholder.typicode.com/users)
+  .then(res => res.json()) //in flow1, just do it
+  .then(data => {
+   // Inside this callback, and only here, the response data is available
+    console.log("data",data);
+  /* data now contains the response, converted to JavaScript
+     Observe the output from the log-output above
+     Now, just build your DOM changes using the data      */ 
+})
+</script>
+
+</body>
+
+</html>
