@@ -1,5 +1,5 @@
 fetch(https://jsonplaceholder.typicode.com/users)
-  .then(res => res.json()) //in flow1, just do it
+  .then(res => res.json()) //in flow1 just do it
   .then(data => {
    // Inside this callback, and only here, the response data is available
     console.log("data",data);
