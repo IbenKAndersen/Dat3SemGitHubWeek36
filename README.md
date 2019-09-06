@@ -29,3 +29,17 @@ JavaScript Introduction
 - Status: Done with all exercises in JavaScript Array. Done with exercise .... in JavaScript Day 1. 
 - Location: The .js-file and documents with answers are in the folder 03-wednesday-excercises. 
 - Learning goals: descriping the diffrences between Java and JavaScript, describing the functionality and data types and structures of JavaScript, using the most important methods of JavaScript Array. 
+
+# Thursday 05/09/19
+JavaScript and the Document Object Model (DOM)
+
+- Status: Tried to make the fetch exercise. 
+- Location: The .html-document and .js-document is in the folder 04-thursday-exercises. 
+- Learning goals: demonstrating code examples with DOM-interaction e.g. choosing elements, styling, handling tags, attributes etc., demonstrating the use of fetch.  
+
+# Friday 06/09/19
+Add a JavaScript-driven frontend to your REST-API
+
+- Status: Not done yet.
+- Location: ...
+- Learning goals: demonstrating the learning goals from throughout the week e.g. deploying via Travis, the use of fetch in JavaScript, rendering data from one, or more REST-endpoint. 
