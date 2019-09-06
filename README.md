@@ -19,8 +19,8 @@ CI with Maven and Travis
 # Tuesday 03/09/19
 Testing a REST API
 
-- Status: ...
-- Location: The document with answers is in the folder 02-tuesday-excercises. Link to NetBeans project https://github.com/IbenKAndersen/Movie
+- Status: Done with testing. 
+- Location: Link to NetBeans project (same as Monday) https://github.com/IbenKAndersen/Movie
 - Learning goals: descriping and demonstrating automatic testing by using Maven. 
 
 # Wednesday 04/09/19
