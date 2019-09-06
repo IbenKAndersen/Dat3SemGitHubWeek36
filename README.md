@@ -26,8 +26,8 @@ Testing a REST API
 # Wednesday 04/09/19
 JavaScript Introduction
 
-- Status: Done with all exercises in JavaScript Array. Almost done with exercises in JavaScript Day 1. I have not made the exercises for JavaScript Objects and Reusable Modules with Closures (red exercises). 
-- Location: The .js-file and documents with answers are in the folder 03-wednesday-excercises. The JavaScript Array exercises are in the document JavaScript Array.pdf and the JavaScript Day 1 exercises are in the document JavaScript_Functions.pdf and in JavaScript_Functions.js
+- Status: Done with exercises in JavaScript Array and JavaScript Day 1. 
+- Location: The .js-file and document with answers are in the folder 03-wednesday-excercises. The JavaScript Array exercises are in the document JavaScript Array.pdf and the JavaScript Day 1 exercises are in the document JavaScript_Functions.js
 - Learning goals: descriping the diffrences between Java and JavaScript, describing the functionality and data types and structures of JavaScript, using the most important methods of JavaScript Array. 
 
 # Thursday 05/09/19
