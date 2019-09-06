@@ -1,4 +1,4 @@
-//Exercises for: JavaScript functions and Callbacks
+//Exercises for: JavaScript Functions and Callbacks
 
 // Ex 1 Create a new JavaScript file and add these three functions
 function add(n1, n2){
